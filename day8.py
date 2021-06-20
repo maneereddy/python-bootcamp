@@ -14,6 +14,15 @@ list3 = dict.keys(names)
 print("list of dictionary keys",list3)
 sorted_list3 = sorted(list3)
 print("sorting the list of dictionary keys", sorted_list3)
+#sorting list without using function
+names = {3:"a",2:"b",1:"c"}
+list4 = dict.keys(names)
+list3 = list(list4)
+print(list3)
+
+asscending_list = list3[::-1]
+print(asscending_list)
+
 #4)
 string1 = input("enter a string")
 string  = string1[0:10]
