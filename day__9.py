@@ -1,7 +1,6 @@
 #1)
 list1 = [1,2,3]
 add = 2
-sum = 0
 for i in list1:
     print(i+add)
     i+=1
