@@ -67,9 +67,13 @@ print(y,"year")
 
 #8)
 import math
-x =1
+x =90
 print(math.sin(x))
 print(math.cos(x))
+print(math.tan(x))
+print(math.cosin(x))
+print(math.sec(x))
+print(math.cosec(x))
 #9)
 num1 = int(input("enter a number"))
 operator = input("+,-,*,/")
