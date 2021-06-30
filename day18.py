@@ -24,7 +24,9 @@ for x in myresult:
     print(x)
 mydb.execute("SELECT * FROM doctor WHERE patient > 5")
 result = mydb.fetchall()
-print(result)
+for i in result:
+    print(i)
 mydb.execute("SELECT * FROM doctor WHERE patient = 0")
 res = mydb.fetchall()
-print(res)
+for i in res:
+    print(i)
